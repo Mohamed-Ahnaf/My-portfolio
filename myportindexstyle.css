@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{margin: 0px;
+padding: 0px;
+font-family: "Rubik", sans-serif;
+}
+/*
+.container{
+    border:5px solid black;
+   
+    display: flex;
+   flex-direction: row;
+   height: 1000px;
+   align-items: center;
+
+}
+
+
+
+.flex{
+    color: red;
+    font-size: 18px;
+    padding:16px;
+    text-align: center;
+
+}
+
+.item-1{
+    background-color: lightcyan;
+    font-size: 45px;
+}
+.item-2{
+    background-color: lightblue;
+}
+.item-3{
+    background-color: darkcyan;
+}
+.item-4{
+    background-color: goldenrod;
+}
+.item-5{
+    background-color: green;
+}
+.item-6{
+    background-color: aliceblue;
+}
+.item-7{
+    background-color: grey;
+}
+.item-8{
+    background-color: yellow;
+}
+.item-9{
+    background-color: pink;
+}*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    
+
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px;
+}
+
+.navbar-links ul{
+    display: flex;
+
+}
+
+.navbar-links ul li{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    
+}
+
+.navbar-links ul li a{
+    padding: 16px;
+    text-decoration: none;
+    color:white;
+    display: block;
+    
+}
+
+.navbar-links ul li:hover{
+    background-color: #34495e;
+}
+
+.btn{
+    
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 30px;
+    height: 22px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+
+@media (max-width:600px) {
+    .btn{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+       width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .navbar-links ul li{
+        text-align: center;
+
+}
+
+.navbar-links.active{
+    display: flex;
+}
+
+
+}
