@@ -4,62 +4,19 @@
 padding: 0px;
 font-family: "Rubik", sans-serif;
 }
-/*
-.container{
-    border:5px solid black;
-   
-    display: flex;
-   flex-direction: row;
-   height: 1000px;
-   align-items: center;
 
+body{
+    background-color: black;
 }
-
-
-
-.flex{
-    color: red;
-    font-size: 18px;
-    padding:16px;
-    text-align: center;
-
-}
-
-.item-1{
-    background-color: lightcyan;
-    font-size: 45px;
-}
-.item-2{
-    background-color: lightblue;
-}
-.item-3{
-    background-color: darkcyan;
-}
-.item-4{
-    background-color: goldenrod;
-}
-.item-5{
-    background-color: green;
-}
-.item-6{
-    background-color: aliceblue;
-}
-.item-7{
-    background-color: grey;
-}
-.item-8{
-    background-color: yellow;
-}
-.item-9{
-    background-color: pink;
-}*/
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c3e50;
+    /*background-color: #2c3e50;*/
+    background-color: transparent;
     color: white;
+    position: sticky;
     
 
 }
@@ -144,3 +101,62 @@ font-family: "Rubik", sans-serif;
 
 
 }
+
+
+/*---------------------------------*/
+
+.banner{
+    height: 580px;
+    background-color: black;
+    /*border: 1px solid white;*/
+    display: flex;
+    color: white;
+
+}
+
+.folpic{
+    height: 580px;
+    align-items: flex-start;
+
+}
+
+.titlecard{
+   /* border: 1px solid red;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+.titlecard p{
+    font-size: medium;
+    text-align: left;
+    width: 550px;
+    justify-content: flex-start;
+    font-weight: lighter;
+}
+
+.icon-button {
+    background-color: orangered; 
+    color: white;             
+    padding: 8px 12px;        
+    font-size: 14px;          
+    cursor: pointer;          
+    border-radius: 50px;       
+    display: inline-flex;      
+    align-items: center;
+    border:none;      
+  }
+  
+  .button-icon {
+    width: 16px;              
+    height: 16px;
+    margin-right: 8px;      
+  }
+  
+  .icon-button:hover {
+    background-color: white;
+    color: orangered; 
+    font-weight: bolder;
+  }
+  
