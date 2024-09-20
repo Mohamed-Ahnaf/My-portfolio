@@ -287,10 +287,15 @@ body{
 
 .subox{
     display: flex;
-    border: 1px solid white;
+    border: 3px solid rgba(255, 255, 255, 0.295);
+    border-radius: 20px;
     justify-content: center;
     max-height: 300px;
     align-items: center;
+    overflow-x: scroll;
+    padding: 150px;
+    width: auto;
+    scroll-behavior: smooth; 
 }
 
 .skills h1{
@@ -319,4 +324,8 @@ body{
     height: 200px;
     width: 200px;
     margin: 5px;
+}
+
+@media (max-width:800px){
+    
 }
