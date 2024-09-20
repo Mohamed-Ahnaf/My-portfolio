@@ -458,3 +458,42 @@ body{
     align-items: first baseline;
    
 }
+
+
+@media (max-width: 800px) {
+
+    .education{
+        height: 1500px;
+    }
+    .edu {
+        flex-direction: column; 
+        height: auto; 
+        padding: 20px;
+    }
+
+    .gr-pic {
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto; 
+        border-radius: 10px;
+    }
+
+    .gr-det {
+        align-items: center; /* Center the text */
+        text-align: center;
+        padding: 10px;
+    }
+
+    .gr-det h1 {
+        font-size: 24px; /* Adjust heading size */
+    }
+
+    .gr-det p {
+        font-size: 14px; /* Adjust paragraph size */
+    }
+
+    .zck {
+        height: auto;
+        width: 100%; /* Make content take full width */
+    }
+}
