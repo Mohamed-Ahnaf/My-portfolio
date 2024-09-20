@@ -167,6 +167,8 @@ body{
     display: none;
   }
 
+
+
   
 
 @media (max-width:800px){
@@ -203,13 +205,19 @@ body{
          padding: 10px;
      }
      .titlecard p{
-         font-size: small;
-         text-align: left;
-         width: 300px;
-         justify-content: flex-start;
+         font-size: 15px;
+         text-align:center;
+         width: 100%;
+       padding:10px;
+
          font-weight: lighter;
          text-align: center;
+         cursor: pointer;
+         background-color: rgba(128, 128, 128, 0.192);
+         border-radius: 30px;
      }
+
+ 
 
      .social-media{
         display: none;
@@ -243,6 +251,8 @@ body{
       .social-media2{
         display: flex;
         margin: 10px;
+        width: 100%;
+        justify-content: center;
         
       }
 
@@ -250,4 +260,63 @@ body{
       
 
 
+}
+
+
+/*-------------------------------------------------------*/
+
+.skill-section{
+    height: 500px;
+    background-color: black;
+    color: white;
+    
+    justify-content: center;
+   
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.subox{
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    max-height: 300px;
+    align-items: center;
+}
+
+.skills h1{
+    font-size: 50px;
+    justify-content: center;
+    color: orangered;
+    text-align: center;
+}
+
+.skill-box{
+    background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 30px;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+   
+    
+    
+}
+
+.skill-icon{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
 }
