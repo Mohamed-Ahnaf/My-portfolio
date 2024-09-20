@@ -10,6 +10,7 @@ body{
     background-color: black;
 }
 
+/*------------------------NAVBAR CSS DESIGN--------------------*/
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -105,7 +106,7 @@ body{
 }
 
 
-/*---------------------------------*/
+/*-----------------BANNER CSS DESIGN----------------*/
 
 .banner{
     height: 580px;
@@ -264,7 +265,7 @@ body{
 }
 
 
-/*-------------------------------------------------------*/
+/*---------------------------SKILL SECTION CSS DESIGN----------------------------*/
 
 .skill-section{
     height: 500px;
@@ -336,6 +337,7 @@ body{
 
     .skills h1 {
         font-size: 35px; 
+        margin-top: 10px;
     }
 
     .subox {
@@ -360,4 +362,99 @@ body{
         height: 130px; 
         width: 150px;
     }
+
+    .cp{
+      font-size: small;
+    }
+}
+
+
+.cp{
+    height: 50px;
+    color: white;
+    padding:5px;
+    justify-content: center;
+    display: flex;
+    background-color: #34495e;
+    align-items: center;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+.education{
+    height: 900px;
+    background-color: black;
+}
+
+.edu{
+    height: 200px;
+    margin: 20px 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #34495e6b;
+    
+
+}
+
+
+.gr-det h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+    font-size: 28px;
+    margin: 5px 0;
+    color: lightskyblue;
+    cursor: pointer;
+
+   
+}
+
+.zck{
+    height: 150px;
+    width: fit-content;
+    
+}
+
+
+
+.gr-det p {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0;
+    color: whitesmoke; 
+    cursor: pointer;
+  
+    
+}
+
+.gr-det a{
+    text-decoration: none;
+}
+.esoft:hover{
+    color: blue;
+}
+
+
+
+
+
+.gr-pic{
+    height: 150px;
+    width: 180px;
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+
+.gr-det{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+   
 }
