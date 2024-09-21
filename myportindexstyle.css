@@ -256,7 +256,7 @@ body{
 
       .social-media2{
         display: flex;
-        margin: 10px;
+        margin: 20px;
         width: 100%;
         justify-content: center;
         
@@ -388,7 +388,7 @@ body{
 }
 
 
-
+/*-----------------------EDUCATION SECTION DESIGNING CODE-------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
 
@@ -492,22 +492,22 @@ body{
     }
 
     .gr-det {
-        align-items: center; /* Center the text */
+        align-items: center; 
         text-align: center;
         padding: 10px;
     }
 
     .gr-det h1 {
-        font-size: 24px; /* Adjust heading size */
+        font-size: 24px; 
     }
 
     .gr-det p {
-        font-size: 14px; /* Adjust paragraph size */
+        font-size: 14px; 
     }
 
     .zck {
         height: auto;
-        width: 100%; /* Make content take full width */
+        width: 100%; 
     }
 }
 
@@ -520,3 +520,9 @@ body{
         border-radius: 10px;
     }
 }
+
+
+
+
+/*-----------------------EDUCATION SECTION DESIGNING CODE-------------------------------------------------*/
+
