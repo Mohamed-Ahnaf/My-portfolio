@@ -457,6 +457,7 @@ body{
     color: orangered;
     text-align: center;
     margin: 30px;
+    text-align: center;
 }
 
 
@@ -645,6 +646,114 @@ body{
         font-size: small;
     }
 }
+
+
+/*-----------------------SERVICE SECTION DESIGNING CODE-------------------------------------------------*/
+
+.services{
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.serve{
+    font-size: 50px;
+    color: orangered;
+    text-align: center;
+    
+}
+
+@media (max-width:800px){
+    .services{
+        font-size: large;
+        
+    }
+
+    .serve{
+        font-size: 30px;
+        
+        
+    }
+
+    .services h3{
+        background-color: rgba(144, 238, 144, 0.185);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+.contact{
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+}
+
+
+.mob{
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  width: 100%;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.contact-icon2{
+    height: 50px;
+    width: 50px;
+}
+
+.contact h1{
+    font-size: 50px;
+    color: orangered;
+    text-align: center;
+}
+
+
+@media (max-width:800px){
+    .contact h1{
+        font-size: 30px;
+        margin: 20px;
+        
+    }
+
+    .mob{
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px;
+       
+        background-color: transparent;
+        color: black;
+        padding: 10px;
+        cursor: pointer;
+       
+    }
+
+
+}
+
+
+
 
 
 
