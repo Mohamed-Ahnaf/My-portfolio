@@ -293,7 +293,8 @@ body{
 
 .subox{
     display: flex;
-    border: 3px solid rgba(255, 255, 255, 0.295);
+    border-left: 10px solid rgba(255, 255, 255, 0.295);
+    border-right: 10px solid rgba(255, 255, 255, 0.295);
     border-radius: 30px;
     justify-content: flex-start;
     max-height: 300px;
@@ -340,8 +341,10 @@ body{
     }
 
     .skills h1 {
-        font-size: 35px; 
+        font-size: xx-large; 
         margin-top: 10px;
+       
+    }
     }
 
     .subox {
@@ -352,7 +355,8 @@ body{
         max-height: 250px; 
         align-items: center;
         padding: 10px; 
-        border-radius: 20px; 
+        border-radius: 20px;
+        margin-top: 30px; 
     }
 
     .skill-box {
@@ -370,7 +374,7 @@ body{
     .cp{
       font-size: small;
     }
-}
+
 
 
 .cp{
@@ -467,12 +471,17 @@ body{
 @media (max-width: 800px) {
 
     .education{
-        height: 1500px;
+        height: auto;
+        padding: 30px;
+        box-sizing: border-box;
+        
+        
     }
     .edu {
         flex-direction: column; 
         height: auto; 
-        padding: 20px;
+        padding: 50px;
+        border-radius: 50px;
     }
 
     .gr-pic {
@@ -499,5 +508,15 @@ body{
     .zck {
         height: auto;
         width: 100%; /* Make content take full width */
+    }
+}
+
+@media (max-width: 800px) and (orientation:landscape){
+
+    .gr-pic {
+        width: 200px; 
+        height: auto; 
+        margin: 0 auto; 
+        border-radius: 10px;
     }
 }
