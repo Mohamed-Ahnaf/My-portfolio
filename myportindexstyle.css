@@ -300,10 +300,15 @@ body{
     max-height: 300px;
     align-items: center;
     overflow-x: scroll;
-    
+    position: relative;
     width: 100%;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    z-index: 1; 
+
 }
+
+
+
 
 .skills h1{
     font-size: 50px;
@@ -446,7 +451,13 @@ body{
     color: blue;
 }
 
-
+.path{
+    font-size: 50px;
+    justify-content: center;
+    color: orangered;
+    text-align: center;
+    margin: 30px;
+}
 
 
 
@@ -524,5 +535,56 @@ body{
 
 
 
-/*-----------------------EDUCATION SECTION DESIGNING CODE-------------------------------------------------*/
+/*-----------------------PORTFOLIO SECTION DESIGNING CODE-------------------------------------------------*/
+
+.portfolio{
+    height: auto;
+    
+}
+
+.po{
+    font-size: 50px;
+    justify-content: center;
+    color: orangered;
+    text-align: center;
+    margin: 80px;
+   
+}
+
+.project-box{
+    height: 300px;
+    
+    color: white;
+    display: flex;
+    line-height: 25px;
+    background-color: rgba(144, 238, 144, 0.185);
+}
+.project-pic{
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+}
+
+.project-pic:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.espacetext{
+    font-size: x-large;
+}
+
+.pp{
+    color: lightgrey;
+}
+
 
