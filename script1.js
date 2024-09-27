@@ -7,21 +7,21 @@ btn.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
 
-// Smooth scroll and close navbar when a link is clicked
+
 for (let link of navLinks) {
     link.addEventListener('click', function (e) {
-        e.preventDefault(); // Prevent default anchor behavior
+        e.preventDefault(); 
         
-        const targetId = this.getAttribute('href'); // Get the section id (e.g., #section1)
-        const targetSection = document.querySelector(targetId); // Get the target section
+        const targetId = this.getAttribute('href'); 
+        const targetSection = document.querySelector(targetId); 
         
-        // Smooth scroll to the section
+        
         window.scrollTo({
             top: targetSection.offsetTop,
             behavior: 'smooth'
         });
 
-        // Close the navbar
+      
         navbar.classList.remove('active');
     });
 }
